@@ -1,0 +1,9 @@
+<h1>Board Index</h1>
+
+<% boards.forEach(function(board) { %>
+  <a href="#/api/boards/<%= board.id %>">
+    <li><%= board.escape('title') %></li>
+  </a>
+<% }) %>
+
+<a href="#/api/boards/new">New Board</a>
