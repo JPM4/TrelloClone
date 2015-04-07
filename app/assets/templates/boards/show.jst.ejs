@@ -2,10 +2,10 @@
 
 <ul>
   <% _.each(board.lists().models, function(list) { %>
-    <li><%= list.escape("title") %></li>
+    <div class="list"><%= list.escape("title") %></div>
   <% }) %>
 </ul>
 
-<a href="#/">Index</a>
+<a href="#/" class="index-button">Index</a>
 <div class="new-list-view">
 </div>

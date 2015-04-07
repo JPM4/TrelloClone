@@ -20,3 +20,23 @@
   float: right;
   margin-right: 100px;
 }
+
+div .list {
+  float: left;
+  min-width: 150px;
+  min-height: 200px;
+  margin-left: 50px;
+  background-color: lightblue;
+  border: 3px solid black;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 20px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.index-button {
+  background-color: red;
+}
